@@ -1,0 +1,30 @@
+.product__more-action-menu{
+    z-index: 10;
+    position: absolute;
+    bottom: -60px;
+    right: 18px;
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid #0000007c;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.operations-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.operation{
+    flex-basis: 40%;
+    text-align: center;
+    cursor: pointer;
+    padding: 0 0 5px;
+}
+.product__delete-button{
+    padding: 7px 25px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+}

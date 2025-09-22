@@ -1,0 +1,27 @@
+.product{
+    position: relative;
+    display: flex;
+    padding: 15px 15px;
+    border-bottom: 1px solid #0000007c;
+    line-height: 1.2;
+    align-items: center;
+}
+
+.product__name{
+    flex: 1;
+    font-size: 18px;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  padding-right: 15px;
+}
+.product__amount{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.menu-overlay{
+    background-color: white;
+}

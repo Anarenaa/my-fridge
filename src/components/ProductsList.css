@@ -1,0 +1,6 @@
+.products-list {
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding-bottom: 70px;
+}

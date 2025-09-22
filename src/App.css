@@ -1,0 +1,34 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon {
+  cursor: pointer;
+}
+.add-item-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: lightblue;
+  width: 56px;
+  height: 56px;
+  padding: 15px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #bbb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}

@@ -1,0 +1,98 @@
+.add-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.title-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.amount-container {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.amount-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.amount-unit-select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.add-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button {
+  background-color: rgb(75, 174, 204);
+  color: white;
+  border: none;
+}
+
+.add-button:hover {
+  background-color: rgb(75, 174, 204);
+}
+
+.cancel-button {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  color: #ffffff90;
+}
+
+.error {
+  border-color: #f44336 !important;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 12px;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+}
+
+input:active, input:focus, select:focus, select:active {
+  border-color: #0000007c;
+}
+.add-button:hover, .add-button:active, .add-button:focus {
+  border: 1px solid #0000007c;
+  padding: 9px 19px; /* Adjust padding to maintain button size when border is added */
+}
