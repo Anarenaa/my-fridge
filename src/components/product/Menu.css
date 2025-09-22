@@ -4,7 +4,7 @@
     bottom: -60px;
     right: 18px;
     background-color: white;
-    font-size: 20px;
+    font-size: 22px;
     border: 1px solid #0000007c;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -18,13 +18,13 @@
     flex-basis: 40%;
     text-align: center;
     cursor: pointer;
-    padding: 0 0 5px;
+    padding: 5px 0;
 }
 .product__delete-button{
     padding: 7px 25px;
     text-align: center;
     cursor: pointer;
     border: none;
-    border-top: 1px solid #ddd;
-    font-size: 16px;
+    border-top: 1px solid #0000007c;
+    font-size: 18px;
 }
