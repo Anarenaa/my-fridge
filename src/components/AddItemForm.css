@@ -56,13 +56,10 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   background-color: #c8e4ff;
   color: white;
-  border: 1px solid #0000007c;
-  text-shadow:
-    0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 .cancel-button {
